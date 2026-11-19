@@ -1,0 +1,26 @@
+[project]
+name = "ai-research-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AbhiramPattem", email = "abhirampattem1305@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crewai[google-genai]>=1.15.41",
+    "crewai-tools>=1.15.41",
+    "ddgs>=9.16.1",
+    "numpy>=2.5.5",
+    "openai>=2.54.0",
+    "pandas>=3.1.1",
+    "sentence-transformers>=6.3.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+ai-research-generator = "ai_research_generator:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
