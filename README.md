@@ -261,20 +261,5 @@ The generated report follows this structure:
 - The first semantic evaluation may take longer because the embedding model needs to be downloaded.
 - The embedding model runs locally and does not require a separate embedding API key.
 
-## Future Improvements
-
-- Add source credibility evaluation and fact-checking.
-- Introduce citation verification.
-- Add support for additional search providers.
-- Implement report export to PDF and DOCX.
-- Add a Streamlit-based user interface.
-- Introduce retry handling and error recovery for LLM API failures.
-- Add automated testing and evaluation of generated reports.
-
-## License
-
-This project is available under the MIT License. Add a `LICENSE` file to the repository if you choose to distribute it under that license.
-
----
 
 **Built with Python, CrewAI, and AI-powered research automation.**
